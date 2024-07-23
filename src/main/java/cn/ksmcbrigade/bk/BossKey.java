@@ -44,6 +44,11 @@ public class BossKey {
                 }
                 hidden = !hidden;
             }
+            try {
+                Thread.sleep(35);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
     });
 
